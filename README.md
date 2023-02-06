@@ -15,7 +15,7 @@ MS SQL Server Management Studio
 
 The following changes were made to the raw dataset to perform data cleaning for further use.
 
-1. Standardize Date Format
+1. Standardize Date Format from TIMESTAMP
 2. Replace NULL values with data using SELF JOINS
 3. Breaking Out PropertyAddress into Individual Columns (Address, City, State) using SUBSTRING AND CHARINDEX
 4. Breaking Out OwnerAddress into Individual Columns (Address, City, State) using PARSENAME
